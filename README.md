@@ -16,7 +16,7 @@ NOTE: There is no UEFI support for 32bit ISOs.
    ```
 
 2. Edit `/syslinux/archiso_sys_both_inc.cfg`
-   *  Unhash the desired system build, and hash the undesired one.
+   * Unhash the desired system build, and hash the undesired one.
 
    _The example below is for 64bit:_
       ```
