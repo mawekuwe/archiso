@@ -19,13 +19,13 @@ NOTE: There is no UEFI support for 32bit ISOs.
    * Unhash the desired system build, and hash the undesired one.
 
    _The example below is for 64bit:_
-      ```
+      ``` cfg
       INCLUDE boot/syslinux/archiso_sys64.cfg
       #INCLUDE boot/syslinux/archiso_sys32.cfg
       ```
 
    _This is for 32 bit:_
-      ```
+      ``` cfg
       #INCLUDE boot/syslinux/archiso_sys64.cfg
       INCLUDE boot/syslinux/archiso_sys32.cfg
       ```
