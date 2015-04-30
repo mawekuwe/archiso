@@ -11,7 +11,9 @@ This is the archiso testing build for the new OB CLI version of Evo/Lution.
 NOTE: There is no UEFI support for 32bit ISOs.
 
 1. Clear out the pacman cache (prevents mixing of 32 and 64 bit versions of the same packages)
-    `pacman -Scc`
+   ```
+   pacman -Scc
+   ```
 
 2. Edit `/syslinux/archiso_sys_both_inc.cfg`
    *  Unhash the desired system build, and hash the undesired one.
